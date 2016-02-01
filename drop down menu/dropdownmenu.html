@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="menu-wrap">
+  <nav class="menu">
+    	<ul class="clear-fix">
+        	<li><a href="#">  gift ideas </a>
+            	<ul class="sub-menu"> 
+                	<li> <a href="#">best 10</a></li>
+                    <li> <a href="#">bottom 10</a></li>
+                    <li> <a href="#">
+                    weirdest gifts </a>
+                    </li>
+                  
+                    </ul>
+            </li>
+            <li> <a href="#">  best shopping websites </a>
+            	<ul class="sub-menu"> 
+                	<li> <a href="#">amazon</a></li>
+                    <li> <a href="#"> best buy</a></li>
+                    <li> <a href="#">nike</a></li>
+                    </ul>
+            </li>
+            <li><a href="#">History of christmas</a>
+            	<ul class="sub-menu"> 
+                	<li> <a href="#">christmas tree</a></li>
+                    <li> <a href="#">santa</a></li>
+                    <li> <a href="#">Traditions</a></li>
+                    </ul> 
+             </li>
+            <li> <a href="#">  christmas music </a>
+            	<ul class="sub-menu"> 
+                	<li> <a href="#">gle bells</a></li>
+                    <li> <a href="#">white christmas</a></li>
+                    <li> <a href="#">jim drummer boy</a></li>
+                    </ul> </li>
+        </ul>
+  </nav>
+  
+</div>
+<style>
+/*nav menu*/
+.clearfix:after {
+	display:block; 
+	clear:both;
+	width:100%;
+}
+	/*menu outline*/
+	.menu-wrap{
+		width:100%;
+	}
+	.menu{
+		text-align:center;
+	}
+	.menu li{
+		list-style:none;
+		transition:all linear .15s;}
+		
+		.menu a{
+			transition:all linear .15s;
+			text-decoration:none;
+		}
+		.menu li:hover > a{
+			text-decoration:none;
+		}
+		/*---- top level -----*/
+		.menu > ul{
+			display:table;
+			padding:0;
+			margin:0;
+			text-align:center;
+		}
+		.menu > ul > li {
+			postion:relative;
+			display:table-cell;
+			margin:0px;
+			padding:0;
+			width:10%;
+			border-left: solid #F00;
+			text-align:center;
+			height:40px;
+			vertical-align:bottom;
+		}
+		.menu > ul > li:hover, .menu > ul > .current-item> a {
+			background: green;
+		}
+		/*----bottom level*/
+		.menu li:hover .sub-menu{
+			z-index:1;
+			opacity:1;
+		}
+		.sub-menu {
+			width:100%;
+			padding:0px;
+			postion: absoulute;
+			top:100%
+			left:100%;
+			z-index:-1;
+			opacity:0;
+			transition:opacity linear 0.15s;
+			background: green  ;
+			text-align:center;
+			border-top: solid thick #F00;
+			
+		}
+		.sub-menu li{
+			display:table;
+			text-align: center;
+			width:80%;
+			border-top:top:solid thin #F00;
+			margin:auto;
+		}
+		. sub-menu a {
+			display:table;
+			height:40px;
+			vertical-align:middle;
+			width:100%;
+			text-align:center;
+		}
+		
+		.sub-menu li:hover, .submenu .current-item a {
+			background-color:white;
+		}
+		   
+	
+
+			
+	
+
+
+
+
+</style>
+</body>
+</html>
