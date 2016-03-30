@@ -8,9 +8,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="Untitled-1.css" rel="stylesheet" type="text/css">
+<!-- TemplateEndEditable -->
+<link href="../boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../Untitled-1.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 body {
 	background-color: #00F;
@@ -42,7 +44,9 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="../respond.min.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 <body>
 <div class="gridContainer clearfix">
@@ -96,19 +100,17 @@ li.dropdown {
 
 .show {display:block;}
 </style>
-</head>
-<body>
+
 
 <ul>
-  <li><a class="" href="historyoflochness.html">History</a></li>
-  <li><a href="news.html">News</a></li>
+  <li><a class="active" href="#home">History</a></li>
+  <li><a href="#news">News</a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Facts</a>
     <div class="dropdown-content" id="myDropdown">
-      <a href="http://blogs.scientificamerican.com/tetrapod-zoology/photos-of-the-loch-ness-monster-revisited/">Nessie</a>
-      <a href="https://en.wikipedia.org/wiki/The_Water_Horse:_Legend_of_the_Deep">Movie</a>
-      <a href="opnion.html">My opnion</a>
-      
+      <a href="#">Nessie</a>
+      <a href="#">Movie</a>
+      <a href="#">My opnion</a>
     </div>
   </li>
 </ul>
@@ -137,12 +139,14 @@ window.onclick = function(e) {
 }
 </script>
   </div>
-  <div id="logo"><img src="Image.jpg" height="100" width=></div>
+  <div id="logo"><img src="../Image.jpg" height="100" width=></div>
   <div >
     <div id="nav">
  
   </div>
-    <div id="content"><H1>The Mission</H1><p>Operation Deepscan has been by far the largest and most intense search of Loch Ness to attempt to find the proof of the mystery known as the Loch Ness monster.
+    <div id="content"><!-- TemplateBeginEditable name="main" -->
+    
+    <H1>The Mission</H1><p>Operation Deepscan has been by far the largest and most intense search of Loch Ness to attempt to find the proof of the mystery known as the Loch Ness monster.
 The newspapers claimed it was "a sonar exploration of Loch Ness, an operation which would sweep the unfathomable depths of the loch from shore to shore and end to end with a curtain through which nothing could escape".
 But how did the operation start and what was the results of the plan estimated to cost £1million.
 It was the brainchild of Adrian Shine, the leader of the Loch Ness project who teamed up with Darrell Laurence head of Laurence Electronics, Tulsa Oklahoma. He thought Loch Ness would be a good testing site for his sonar units (not to mention the publicity).
@@ -166,7 +170,7 @@ The position of all three targets was taken using Decca navigation equipment so 
 The boats returned to the New Clansman Hotel and everyone waited with bated breath for the debriefing in the hotel that evening. In the debriefing it was reported that 3 strong sonar contacts were made that day, larger than would be expected from a fresh water loch.
 David Steensland of Laurence said that the 78metre (256ft)target might be of a very large known fish but thought that unlikely at that depth. Of the other two targets he said they were very strange and larger than those he picked up from sharks off the coast of Florida.
 Darrell Laurence said that all the contacts were larger than a shark but smaller than a whale. Adrian Shine, leader of the Loch Ness project said in his opinion all 3 targets were unlike those which could be expected from the lochs known inhabitants like salmon eels or shoals of char and that they are deep midwater contacts of considerable strength.
-    </p></div>
+    </p>
     <div id="LayoutDiv2">
     <h1> Recent sightings</h1>
     
@@ -176,7 +180,7 @@ Darrell Laurence said that all the contacts were larger than a shark but smaller
     <h3>22 April 2015</h3>
     <h3>25 April 2015</h3>
     </div>
-    
+    <!-- TemplateEndEditable -->
     
   </div>
 </div>
