@@ -1,0 +1,188 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../Untitled-1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #00F;
+}
+body,td,th {
+	color: #FF0;
+}
+h1 {
+	color: #FF0;
+	text-decoration: underline;
+}
+#content {
+	border: medium solid #FF0;
+}
+.gridContainer.clearfix div #LayoutDiv2 h1 {
+	color: #FFF;
+}
+</style>
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../respond.min.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1">
+  <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+
+
+<ul>
+  <li><a class="active" href="#home">History</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Facts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Nessie</a>
+      <a href="#">Movie</a>
+      <a href="#">My opnion</a>
+    </div>
+  </li>
+</ul>
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </div>
+  <div id="logo"><img src="../Image.jpg" height="100" width=></div>
+  <div >
+    <div id="nav">
+ 
+  </div>
+    <div id="content"><!-- TemplateBeginEditable name="main" -->
+    
+    <H1>The Mission</H1><p>Operation Deepscan has been by far the largest and most intense search of Loch Ness to attempt to find the proof of the mystery known as the Loch Ness monster.
+The newspapers claimed it was "a sonar exploration of Loch Ness, an operation which would sweep the unfathomable depths of the loch from shore to shore and end to end with a curtain through which nothing could escape".
+But how did the operation start and what was the results of the plan estimated to cost £1million.
+It was the brainchild of Adrian Shine, the leader of the Loch Ness project who teamed up with Darrell Laurence head of Laurence Electronics, Tulsa Oklahoma. He thought Loch Ness would be a good testing site for his sonar units (not to mention the publicity).
+So trials started at the loch in October 1986 using ten boats fitted with Laurence X-16 sonar units. The x-16 sonar unit was used because it would record on a paper chart anything seen in the lochs depths.
+The units had a range of 1300ft and could target objects as small as 1ft and separate objects just 1in apart.
+The boats, which were supplied by Caley Cruises set out from the New Clansman Hotel into the loch and tried to form a line down the loch but bad weather and winds up to force 6 stopped any chance they had to gather information so all they had to show was yards of meaningless sonar readings. Operation Deepscan was therefore cancelled for that year.
+It was decided to go ahead with Operation Deepscan the following year.br So on October the 9th 1987 started the largest sonar sweep of any fresh water loch anywhere in the world.
+The boats again supplied by caley cruises met at the New Clansman Hotel. As well as the 24 boats that were to take part in the operation every layby for miles around the loch were full of interested spectators and their cars.
+Over 250 newspersons and 20 television crews turned up to record the the event for the newspapers and tv stations from all over the world.
+Nearly every boat that could be hired was on the loch that morning including a pleasure steamer hired for the media and an helicopter buzzing around the line of boats.
+The proceedings started with Adrian Shine talking to everyone taking part, which included volunteers from the Docklands Fund and the Drake Fellowship, through a megaphone asking they do it for 
+
+"all the maligned eyewitnesses who look to you for vindication ".
+
+The media loved it and spirits were high for the start of the operation.
+The boats edged out into the loch, where they formed a line of 19, all fitted with lowrance X-16 sonar units with other boats following including the New Atlantis fitted with a Simrad scanning sonar which can still be seen on the loch today.
+The first problem they encountered was the sonars forming the curtain interfered with each other so the sensitivity had to be turned down to almost minimum or the readings would be indecipherable. This problem solved, the searchers moved down the loch towards Fort Augustus keeping in line using flags set on several of the boats.
+On the first day 3 strong sonar contacts were recorded from 78 metres (256ft) to 180 metres (590ft). The best of these was made just off Whitefield opposite Urquhart Bay.
+The object entered the the sonar at 174 metres (570ft) and was tracked for 140 seconds. The new atlantis moved forward to try and engage the target with the Simrad scanning sonar but without success.
+The position of all three targets was taken using Decca navigation equipment so they could be revisited later.
+The boats returned to the New Clansman Hotel and everyone waited with bated breath for the debriefing in the hotel that evening. In the debriefing it was reported that 3 strong sonar contacts were made that day, larger than would be expected from a fresh water loch.
+David Steensland of Laurence said that the 78metre (256ft)target might be of a very large known fish but thought that unlikely at that depth. Of the other two targets he said they were very strange and larger than those he picked up from sharks off the coast of Florida.
+Darrell Laurence said that all the contacts were larger than a shark but smaller than a whale. Adrian Shine, leader of the Loch Ness project said in his opinion all 3 targets were unlike those which could be expected from the lochs known inhabitants like salmon eels or shoals of char and that they are deep midwater contacts of considerable strength.
+    </p>
+    <div id="LayoutDiv2">
+    <h1> Recent sightings</h1>
+    
+    <h3>october 4 2016</h3>
+    <h3>15 September 2015 </h3>
+    <h3>13 August 2015 </h3>
+    <h3>22 April 2015</h3>
+    <h3>25 April 2015</h3>
+    </div>
+    <!-- TemplateEndEditable -->
+    
+  </div>
+</div>
+</body>
+</html>

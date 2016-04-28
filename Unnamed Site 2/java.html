@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body onload="L()">
+<script>
+function L() {
+document.getElementBYId('1').style.display="none";
+document.getElementBYId('2').style.display="none";}
+
+function display1(){
+	document.getElementBYId('1').style.display="block";
+document.getElementBYId('2').style.display="none";}
+
+function display2(){
+	
+document.getElementBYId('1').style.display="none";
+document.getElementBYId('2').style.display="block";}
+
+function display3(){
+	
+document.getElementBYId('1').style.display="block";
+document.getElementBYId('2').style.display="block";}
+{
+	
+document.getElementBYId('1').style.color="red";
+document.getElementBYId('2').style.color="blue";}
+
+
+</script>
+
+<div class="content" id="1"><h1> Matt</h1>
+<p>javascipt</p>
+<button onclick="display1()">button 1</button>
+<button onclick="display2()">button 2</button>
+<button onclick="display3()">button 3</button>
+</div>
+<div class="picture" id="2"><h1>basketball</h1>
+<p>favirote teams</p></div>
+</body>
+</html>

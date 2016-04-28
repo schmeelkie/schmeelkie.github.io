@@ -1,0 +1,148 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!-- InstanceBegin template="/Templates/lochnesstemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Untitled-1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #00F;
+}
+body, td, th {
+	color: #FF0;
+}
+h1 {
+	color: #FF0;
+	text-decoration: underline;
+}
+#content {
+	border: medium solid #FF0;
+}
+.gridContainer.clearfix div #LayoutDiv2 h1 {
+	color: #FFF;
+}
+</style>
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div class="gridContainer clearfix">
+<div id="LayoutDiv1">
+  <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+  <ul>
+    <li><a class="active" href="#home">History</a></li>
+    <li><a href="#news">News</a></li>
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Facts</a>
+      <div class="dropdown-content" id="myDropdown"> <a href="#">Nessie</a> <a href="#">Movie</a> <a href="#">My opnion</a> </div>
+    </li>
+  </ul>
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script> 
+</div>
+<div id="logo"><img src="Image.jpg" height="100" width=></div>
+<div >
+  <div id="nav"> </div>
+  <div id="content"><!-- InstanceBeginEditable name="main" -->
+    <H1>News</H1>
+    <p itemprop="articleBody">"Most of the sightings involve foreign objects coming out of the water. There's two most common — one's a hump, and the other is a head and neck," says Campbell. "At the end of the day, there's still sightings that are inexplicable. There's something physical in there."</p>
+    <p itemprop="articleBody">The first locally recorded sighting of Nessie took place in 1868 and spoke of a huge fish, but the phenomenon of Nessie sightings didn't take off until 1933, when a Mr. and Mrs. MacKay reported seeing a massive creature frolicking in the lake.</p>
+    <p itemprop="articleBody">&nbsp;</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NWUaQ-jWYho" frameborder="0" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+    
+    <!-- InstanceEndEditable --> </div>
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>
