@@ -1,0 +1,64 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="file:///Z|/Web design/matt schmeelk/schmeelkie.github.io/apes.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-image: url(../Unnamed%20Site%202/nature_big_tree_hd.jpg);
+}
+</style>
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+<h1> Apes</h1>
+  
+</div>
+<div id="LayoutDiv2"><iframe width="400" height="200" src="https://www.youtube.com/embed/GhxqIITtTtU" frameborder="0" allowfullscreen></iframe>
+  </div>
+<div id="types"><h2>types of apes</h2>
+ <ul>
+ <li>human</li>
+ <li><a href="https://en.wikipedia.org/wiki/Gorilla">gorilla</a></li>
+ <li><a href="http://animals.nationalgeographic.com/animals/mammals/orangutan/">orangutan</a></li>
+ <li><a href="https://en.wikipedia.org/wiki/Bonobo">bonobo</a></li>
+ <li><a href="http://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis">Australopithecus</a></li>
+ <li><a href="http://www.livescience.com/28036-neanderthals-facts-about-our-extinct-human-relatives.html">Neanderthal</a></li>
+ <li><a href="http://www.prehistoric-wildlife.com/species/p/proconsul.html">Proconsul</a></li>
+ 
+ 
+ 
+ </ul>
+  
+</div>
+<div id="picture1"><img src="kong_vs_rex_by_dimension_dino-d91ljbd (1).jpg"></div>
+<div id="video2"><iframe width="600" height="480" src="https://www.youtube.com/embed/ZYZsJYZVt5g" frameborder="0" allowfullscreen></iframe></div>
+<div id="LayoutDiv4">
+  <h2>what are apes</h2>
+  <p>The average gorilla is approximately six to 15 times as strong (depending on who you ask). All those techniques that we rely on to defeat stronger opponents aren't going to be enough to overcome that much strength differential: You will not be arm-barring,Apes (Hominoidea) are a branch of Old World tailless anthropoid catarrhine primates native to Africa and Southeast Asia. They are distinguished from other primates by a wider degree of freedom of motion at the shoulder joint as evolved by the influence of brachiation. There are two extant branches of the superfamily Hominoidea: the gibbons, or lesser apes; and the hominids, or great apes.
+
+The family Hylobatidae, the lesser apes, include four genera and a total of sixteen species of gibbon, including the lar gibbon and the siamang, all native to Asia.  </p></div>
+</body>
+</html>
