@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Exam</title>
+<style type="text/css">
+p {
+	color: #00F;
+	text-decoration: underline;
+	border: medium solid #00F;
+}
+body {
+	color: #0F0;
+}
+#Likes {
+	border: medium solid #000;
+}
+#Likes {
+	background-color: #D6D6D6;
+	border: medium solid #000;
+}
+#dislikes {
+	border: medium solid #000;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Matt schmeelk</h1>
+
+<div class="likes"><p id="Likes">Likes</p>
+
+<button onclick="myFunction1()">Likes</button>
+
+
+
+
+
+<script>
+function myFunction1() {
+    document.getElementById("Likes").innerHTML = "Dogs,Cats,Cars";
+}
+</script>
+</div>
+
+<div class="dislikes"><p id="dislikes">Dislikes</p>
+<button onclick="myFunction()">Dislikes</button>
+
+
+
+
+
+<script>
+function myFunction() {
+    document.getElementById("dislikes").innerHTML = "Brocoli,School,Exmas";
+}
+</script>
+</div>
+</body>
+</html>
